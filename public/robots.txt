@@ -1,0 +1,14 @@
+# robots.txt for EduPro School Management Software
+User-agent: *
+Allow: /
+Allow: /login
+Allow: /staff/activate
+Allow: /student/activate
+
+# Disallow internal application dashboard & API endpoints from public index
+Disallow: /dashboard
+Disallow: /api/
+Disallow: /admin/
+
+# Link to Dynamic XML Sitemap
+Sitemap: https://eduproacademy.edu.ng/sitemap.xml
